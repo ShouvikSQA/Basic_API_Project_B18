@@ -9,6 +9,8 @@ newman.run({
      delayRequest: 5000, 
          envVar: [
         {
+
+            
             key: "gmailToken",
             value:  process.env.token
         }
